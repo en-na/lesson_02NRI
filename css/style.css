@@ -1,3 +1,133 @@
-h1{
-    color:yellow;
+@import url(http://fonts.googleapis.com/earlyaccess/notosansjp.css);
+
+body{
+    font-family:'Noto Sans JP',sans-serif;
+}
+.logo{
+    margin-left:45px;
+}
+.righticon{
+    float:right; margin:0;
+}
+.navi{
+    font-size:12px; color:#999; margin:80px 0 0 180px;
+}
+.header{
+     position:relative;
+}
+.header p{
+    margin:70px 0 0 180px; font-size:20px;
+}
+.header h1{
+    margin:20px 0 0 180px; font-size:28px;
+}
+.header img{
+    margin-top:20px;
+}
+.headertext{
+    position: absolute; color:white;
+    bottom:140px;
+}
+.shareicon{
+    float:right; margin:30px 280px 0 0;
+} 
+.sharetext{
+    padding-right: 20px; vertical-align:40%; font-size:14px;
+}
+.shareicon img{
+    padding-right:20px;
+}
+.article{
+    margin:100px 0 0 300px;
+}
+.articleheader{
+    font-size:23px; vertical-align:20%;
+}
+.maintext{
+    font-size:16px; margin-left:300px; color:#333;
+}
+.text1{
+    vertical-align:70%;
+}
+.text2{
+    margin-top:30px;
+}
+.storyimage1{
+    margin:50px 0 0 300px;
+}
+.storyimage2{
+    margin:50px 0 0 300px;
+}
+.linkpdf{
+    background-color:#005bac;color:white; line-height:1.2; display:inline-block; padding:0px 25px; margin:30px 0 0 550px; text-align:center;
+}
+.pdfunder{
+    margin-top:100px;
+}
+.pdfunder-left{
+    margin:200px 0 0 300px;
+}
+.pdfunder-right{
+    margin:0 0 0 500px;
+}
+.boxtext{
+    font-weight:bold; position:absolute; z-index:1; margin:70px 0 0 330px;
+}
+.linkbox{
+    background-color:#deecf8; width:810px; height:250px; display:flex; flex-wrap:wrap; justify-content:space-around; position:relative; z-index:0;
+    margin:40px 0 0 300px; text-align:center;
+}
+.linkbox1,.linkbox2,.linkbox3,.linkbox4,.linkbox5,.linkbox6{
+     background-color:white; padding:15px 20px;  border:solid 1px #ccc;
+}
+.linkbox1,.linkbox2,.linkbox3{
+    width:195px; height:35px; margin:65px 0 0 0;
+}
+.linkbox4,.linkbox5,.linkbox6{
+    width:195px; height:20px;
+}
+.middle-header{
+   margin:200px 0 0 200px; border-top: solid 2px black; width:1000px;
+}
+.middle-header p{
+    font-size:20px; font-weight:700; padding:15px 0;
+}
+.middle-list-header1,.middle-list-header2,.middle-list-header3,.middle-list-header4{
+   border-top:1px dotted #999; width:1000px; margin:15px 0 0 200px; padding-top:30px; font-weight:500;
+}
+.middle-list-box1-1{
+   width:1000px; height:130px; display:flex; flex-wrap:wrap; margin:25px 0 0 200px;
+}
+.middle-list-box1-2,.middle-list-box2-2,.middle-list-box3-2,.middle-list-box4-2{
+   font-size:14px; width:250px;
+}
+.middle-list-box2-1,.middle-list-box3-1{
+    width:1000px; height:90px; display:flex; flex-wrap:wrap; margin:25px 0 0 200px;
+}
+.middle-list-box4-1{
+    width:1000px; height:60px; display:flex; flex-wrap:wrap; margin:25px 0 0 200px; border-bottom:1px dotted #999;
+}
+.list-box-under{
+    margin:65px 0 0 200px;
+}
+.followus{
+    text-align:center; margin:150px 0 0 0; border-top:2px solid #999; border-bottom:2px solid #999; padding:30px 0
+}
+.followus-text{
+    color:#005bac; font-weight:700; font-size:20px; vertical-align:50%;
+}
+.followus-icon{
+    padding-left:30px;
+}
+.footer{
+    display:flex; width:1200px; height:1200px; flex-wrap:wrap; align-content:flex-start; margin:30px 0 0 150px;
+}
+.footer-box{
+    width:270px; height:340px; 
+}
+.footer-box li{
+    padding:12px 0; font-size:13px; list-style:none;
+}
+.footer-box li:first-child{
+    border-top:1px solid #999; border-bottom:1px solid #999; padding:15px 0;
 }
