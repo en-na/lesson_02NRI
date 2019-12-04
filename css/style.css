@@ -44,7 +44,7 @@ body{
 
 }
 .header img{
-    margin-top:20px; height:250px; width:100%;
+    margin-top:20px; height:250px; width:100%; object-fit:cover;
 }
 .headertext{
     position: absolute; color:white;
